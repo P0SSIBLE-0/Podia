@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
+    <title>podia</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>podia</h1>
+        </div>
+        <nav class="navbar">
+            <ul class="navlist">
+                <li><a href="#">Freatures</a></li>
+                <li><a href="#">Example</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Demo</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="navbtn">
+            <button class="btn">Log In</button>
+            <button class="btn">Sign In</button>
+        </div>
+        <div class="burger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <div class="pagehead">
+        <div class="left">
+            <h2>The <span style="color: blueviolet;"> easiest</span> way to turn your <span style="color: hotpink;">
+                    passion</span> into <span style="color: greenyellow;"> income</span>.</h2>
+            <p>Sell online courses, memberships, and digital downloads. No technical headaches, zero transaction fee,
+                and unlimited everything.</p>
+            <button class="pagehead-btn">Start your free 14-day trial</button>
+        </div>
+        <div class="right">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QwUpnXumcw4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="content">
+        <div class="section-1">
+            <p>How to sale digital products</p>
+            <h2 class="heading">The Hard way <span>( <i>without </i> Podia )</span></h2>
+            <ul class="sell-list">
+                <li>Create your product</li>
+                <li>Buy & setup a custom domain</li>
+                <li>Design, build, & host a website</li>
+                <li>Find & setup a video hosting plateform</li>
+                <li>Find & setup a content and hosting plateform</li>
+                <li>Find & setup a billing plugin</li>
+                <li>Find & setup a email marketing software</li>
+                <li>Start selling</li>
+            </ul>
+
+        </div>
+        <div class="section-2">
+            <div class="sale-product">
+                <p>How to sale digital products</p>
+                <h2 class="heading">The easy way <span>( <i>without </i> Podia )</span></h2>
+                <li>Create your product</li>
+                <li>Add your content to Podia</li>
+                <li><a href="#">Start selling</a></li>
+            </div>
+            <div>
+                <p>"Podia solves all of my selling needs by letting me house courses, memberships, and downloads all in
+                    one place. Plus, the customer services in second to none."</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        let navlist = document.querySelector(".navlist");
+        let burger = document.querySelector(".burger");
+
+        burger.addEventListener('click', () => {
+            navlist.classList.toggle("active");
+            burger.classList.toggle("active");
+        })
+    </script>
+</body>
+
+</html>
